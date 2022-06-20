@@ -1,0 +1,38 @@
+main{
+	border: 5px solid black;
+	display: grid;
+	width: 800px;
+	height: 600px;
+	grid-template-rows: 100px auto;
+}
+#factdisplay{
+	border: 5px solid red;
+	padding: 10px;
+}
+form{
+	border: 5px solid green;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+body{
+	display: flex;
+	justify-content: center;
+}
+form{
+	grid-gap: 10px;
+	padding: 10px;
+}
+input{
+	color: blue;
+	background-color: pink;
+	border: 3px solid maroon;
+	border-radius: 20px;
+}
+input:hover{
+	background-color: aqua;
+	font-family: 'courier new';
+}
+
+#factdisplay img{
+	width:70%;
+}
